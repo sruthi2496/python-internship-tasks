@@ -45,7 +45,7 @@ def valid_email():
         else:
             print("Invalid email format.")
 
-# ---------------- FEATURES ----------------
+
 def add_contact():
     name = input("Enter name (or 'q' to cancel): ")
     if name.lower() == 'q':
